@@ -2,15 +2,15 @@ POST http://localhost:8080/api/login
 Content-Type: application/json
 
 {
-    "email": "something",
-    "password": "123"
+    "email": "test1@gmail.com",
+    "password": "something"
 }
 ###
 POST http://localhost:8080/api/register
 Content-Type: application/json
 
 {
-    "email": "test@gmail.com",
+    "email": "test1@gmail.com",
     "username": "test",
     "password": "something"
 }
